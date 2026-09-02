@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Data Siswa</title>
+</head>
+<body>
+
+    <h2>Form Data Siswa</h2>
+
+    <form>
+        <label for="nama">Username:</label><br>
+        <input type="text" id="nama" name="nama"><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label>Jenis Kelamin:</label><br>
+        <input type="radio" name="gender" value="Laki-laki"> Laki-laki
+        <input type="radio" name="gender" value="Perempuan"> Perempuan
+        <br><br>
+
+        <label for="Hobi">Hobi:</label><br>
+        <input type="checkbox" name="hobi" value="sepak bola">sepak bola<br>
+        <input type="checkbox" name="hobi" value="voli">voli<br>
+        <input type="checkbox" name="hobi" value="basket">basket<br>
+        <br><br>
+        <label for="jurusan">Jurusan:</label><br>
+        <select id="jurusan" name="jurusan">
+            <option value="rpl">RPL</option>
+            <option value="bd">BD</option>
+            <option value="ak">AK</option>
+            <option value="mp">MP</option>
+        </select>
+        <br><br>
+
+        <label for="alamat">Alamat:</label><br>
+        <textarea id="alamat" name="alamat"></textarea>
+        <br><br>
+
+        <button type="reset">Reset</button>
+        <button type="submit">Kirim</button>
+    </form>
+
+</body>
+</html>
